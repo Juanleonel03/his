@@ -1,28 +1,16 @@
-Historia 1
+Historia 1 TR-163
 Crear SP de registro de solicitud
-
-Añadir
-
-Aplicaciones
 Descripción
 
 Como: arquitecto de la mesa
-
-Quiero: crear un SP en la base de datos en el core
-
-Para: actualizar el estado de un registro en la tabla de solicitudes.
-
- 
+Quiero: crear un SP en la base de datos cob_atm en el core
+Para: Registrar los datos de solicitud en la tabla.
 
 Criterios de aceptación:
 
-El SP debe actualizar solamente el registro que se desea actualizar con el estado deseado. 
-
-En caso de error: retornar código de error y descripción del error. 
-
-Script de permisos
-
-permiso a la tabla para preproducción
+1. El SP debe ingresar el registro en la tabla.
+2. En caso de error: retornar código de error y descripción del error. 
+3. Script de permisos: permiso a la tabla para preproducción
 
 
 
@@ -30,26 +18,14 @@ permiso a la tabla para preproducción
 
 Historia 2
 Crear SP de cambio de estado de solicitud
-
-Añadir
-
-Aplicaciones
-Descripción
+Descripcion
 
 Como: arquitecto de la mesa
-
 Quiero: crear un SP en la base de datos en el core
-
 Para: actualizar el estado de un registro en la tabla de solicitudes.
-
- 
 
 Criterios de aceptación:
 
-El SP debe actualizar solamente el registro que se desea actualizar con el estado deseado. 
-
-En caso de error: retornar código de error y descripción del error. 
-
-Script de permisos
-
-permiso a la tabla para preproducción
+1. El SP debe actualizar solamente el registro que se desea actualizar con el estado deseado. 
+2. En caso de error: retornar código de error y descripción del error. 
+3. Script de permisos: permiso a la tabla para preproducción
